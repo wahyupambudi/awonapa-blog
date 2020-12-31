@@ -1,4 +1,4 @@
-// create wahyup
+// create wahyupambudi
 console.log("Menampilkan Teks menggunakan Console.log");
 
 var belajarConsole = "Hello World!"
