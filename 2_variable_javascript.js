@@ -22,4 +22,12 @@ infoVar = "Change Variable in var";
 infoLet = "Change Variable in let";
 
 // change value in var
-infoConst = "Change Variable in const";
+// infoConst = "Change Variable in const";
+
+if(true){
+    var infoVar = "New Value for Var";
+    let infoLet = "New Value for Let";
+}
+
+console.log(infoVar);
+console.log(infoLet);
