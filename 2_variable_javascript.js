@@ -2,27 +2,31 @@
 
 // create variabel with Var
 var infoVar = "Create Variable with var";
-console.log(infoVar);
+console.log(infoVar); //Create Variable with var
 
 // create variabel with let
 let infoLet = "Create Variable with let";
-console.log(infoLet);
+console.log(infoLet); //Create Variable with let
 
 // create variabel with const
 const infoConst = "Create Variable with const";
-console.log(infoConst);
+console.log(infoConst); //Create Variable with const
 
 
-// change value in variable
+// Reassign
 
-// change value in var
-infoVar = "Change Variable in var";
+// reassign in var
+var infoVar = "Change Variable in var";
+console.log(infoVar); //Change Variable in var
 
-// change value in let
-infoLet = "Change Variable in let";
+// reassign in let
+let infoLet = "Change Variable in let";
+console.log(infoLet); //SyntaxError: Identifier 'infoLet' has already been declared
 
-// change value in var
-// infoConst = "Change Variable in const";
+// reassign in const
+const infoConst = "Change Variable in const";
+console.log(infoConst); //SyntaxError: Identifier 'infoConst' has already been declared
+
 
 // perbedaan antara let dan var
 // var itu global jadi bisa di panggil dimana aja
