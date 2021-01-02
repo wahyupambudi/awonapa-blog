@@ -34,3 +34,14 @@ if(true){
 
 console.log(infoVar);
 console.log(infoLet);
+
+// hoisting
+x = 10;
+var x;
+console.log(x); // 10
+
+// after hoisting
+var x;
+x = 10;
+console.log(x); // 10
+
