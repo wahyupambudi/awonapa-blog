@@ -45,3 +45,9 @@ var x;
 x = 10;
 console.log(x); // 10
 
+// scope
+var a = 9;
+if(true) {
+    var b = 10;
+}
+console.log(b); // 10
