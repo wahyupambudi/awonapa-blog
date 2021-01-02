@@ -24,6 +24,9 @@ infoLet = "Change Variable in let";
 // change value in var
 // infoConst = "Change Variable in const";
 
+// perbedaan antara let dan var
+// var itu global jadi bisa di panggil dimana aja
+// kalau let itu beda {scope} maka beda juga
 if(true){
     var infoVar = "New Value for Var";
     let infoLet = "New Value for Let";
