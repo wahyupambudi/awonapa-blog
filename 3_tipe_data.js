@@ -5,12 +5,12 @@
 // tipe data number / angka
 var numA = 10;
 var numB = 12;
-console.log(numA+numB); //22
+console.log(numA+numB); // 22
 
 // tipe data string
 var teksA = "Belajar ";
 var teksB = "Javascript"
-console.log(teksA+teksB);
+console.log(teksA+teksB); // Belajar Javascript
 
 // tipe data boolean
 // dengan nilai true / false
@@ -24,8 +24,10 @@ status = false;
 
 console.log(status); // true
 
-// tipe data null / undefined
+// tipe data null
 var isi = null;
-var kosong;
 console.log(isi); // null
+
+//  undefined
+var kosong;
 console.log(kosong); // undefined 
